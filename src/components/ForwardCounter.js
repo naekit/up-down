@@ -1,8 +1,8 @@
-import useCounter from "../hooks/useCounter"
+import useIncrease from "../hooks/useCounter"
 import Card from "./Card"
 
 const ForwardCounter = () => {
-	const counter = useCounter()
+	const counter = useIncrease()
 	return <Card>{counter}</Card>
 }
 
